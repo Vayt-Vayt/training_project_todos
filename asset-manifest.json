@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/training_project_todos/static/css/main.ff12979d.css",
+    "main.js": "/training_project_todos/static/js/main.9500fc89.js",
+    "index.html": "/training_project_todos/index.html",
+    "main.ff12979d.css.map": "/training_project_todos/static/css/main.ff12979d.css.map",
+    "main.9500fc89.js.map": "/training_project_todos/static/js/main.9500fc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff12979d.css",
+    "static/js/main.9500fc89.js"
+  ]
+}
