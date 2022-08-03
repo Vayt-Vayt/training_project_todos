@@ -1,0 +1,16 @@
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 600px;
+    height: auto;
+    background: rgba(255, 1, 1, .4);
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.texts {
+    color: black;
+}

@@ -1,0 +1,127 @@
+
+.done {
+    display: flex;
+    flex-direction: column;
+    text-decoration: line-through;
+}
+
+.doneFolse {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.change {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(19, 19, 214, 0.74);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100vh;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+.inputs {
+    border-color: rgb(0, 3, 160);
+    color: rgb(0, 3, 160);
+    margin: 3px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 90vh;
+    font-size: 2vh;
+}
+
+.inputs:hover {
+    cursor: pointer;
+    background-color: #def2f5f6; 
+    color: black;
+    border-color: #4CAF50;
+}
+
+.change:hover {
+    border-color:  #4CAF50; 
+    background-color: lightgrey ;
+}
+
+.func {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(19, 19, 214, 0.74);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100vh;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+
+.funcFolse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100vh;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+
+.func:hover {
+    border-color:  #4CAF50; 
+    background-color: lightgrey ;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: rgb(0, 3, 160);
+    border-color: rgb(0, 3, 160);
+    color: white;
+    margin: 3px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border-color: #4CAF50;
+}
+
+.str {
+    display: flex;
+    justify-content: center;
+}
+
+.pageTrue {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pageFalse {
+    border: 1px solid rgb(0, 3, 160);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.alert_margin {
+ margin-top: 100px;
+}

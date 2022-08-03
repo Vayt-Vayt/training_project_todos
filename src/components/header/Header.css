@@ -1,0 +1,34 @@
+.header {
+    background: #D8E3AB;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    z-index: 3;
+}
+
+.bth {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input {
+    border-color: rgb(0, 3, 160);
+    color: rgb(0, 3, 160);
+    margin: 3px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 90vh;
+    font-size: 2vh;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: #def2f5f6; 
+    color: black;
+    border-color: #4CAF50;
+}

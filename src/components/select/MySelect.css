@@ -1,0 +1,17 @@
+.maSelect {
+    background-color: rgb(0, 3, 160);
+    border-color: rgb(0, 3, 160);
+    color: white;
+    margin: 3px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.maSelect:hover {
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border-color: #4CAF50;
+}
+
